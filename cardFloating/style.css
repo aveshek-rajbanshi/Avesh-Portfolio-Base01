@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#main{
+    width: 100vw;
+}
+
+.commonPage{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#navsection{
+    height: 10vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#lft-nav h2{
+    font-size: 26px;
+    font-weight: 550;
+    color: #d7f30a;
+}
+
+#rght-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rght-nav h3{
+    padding-right: 16px;
+    font-size: 16px;
+    font-weight: 530;
+    color: #fff;
+}
+
+#landing-container{
+    height: 90vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#landing-container h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+
+}
+
+#landing-container h4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    
+
+}
+
+
+
+#bodyPage{
+    height: 100vh;
+    width: 100vw;
+    font-family: Gilroy;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#bodyPage h3{
+    position: absolute;
+    top: 2%;
+    left: 38%;
+    font-size: 18px;
+    margin-top: 6%;
+}
+
+#bodyPage h1{
+    position: absolute;
+    font-size: 40px;
+    top: 30%;
+    left: 40%;
+}
+
+#bodyPage h1 span{
+    font-size: 40px;
+    color: crimson;
+}
+
+#bodyPage h4{
+    position: absolute;
+    font-size: 12px;
+    bottom: 7%;
+    left: 39%;
+    font-family: Poppins;
+    font-weight: 560;
+    letter-spacing: -0.5px;
+}
+
+.card{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#card1{
+    top: 10%;
+    left: 8%;
+}
+
+#card2{
+    top: 62%;
+    left: 20%;
+}
+
+#card3{
+    top: 120%;
+    left: 10%;
+}
+
+#card4{
+    top: 6%;
+    right: 22%;
+}
+
+#card5{
+    top: 51%;
+    right: 10%;
+}
+
+#card6{
+    top: 120%;
+    right: 24%;
+}
+
+#legPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skill-container{
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    color: #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 2px solid #474646;
+    border-radius: 10px;
+}
+
+#skill-container h1{
+   position: absolute;
+   top: 5%;
+   left: 50%;
+   transform: translateX(-50%);
+   font-family: Poppins;
+   font-size: 30px;
+   font-weight: 600;
+   color: #dbf60f;
+}
+
+#skill-container h4{
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 550;
+    color: #fff;
+    padding: 6px 40px;
+    border: 2px solid #dbf60f;
+    border-radius: 30px;
+ }
+
+ #skill-container h4:nth-child(2){
+    position: absolute;
+    bottom: 0%;
+    left: 4%;
+ }
+
+ #skill-container h4:nth-child(3){
+    position: absolute;
+    bottom: 0%;
+    left: 14%;
+ }
+
+ #skill-container h4:nth-child(4){
+    position: absolute;
+    bottom: 0%;
+    left: 23%;
+ }
+
+ #skill-container h4:nth-child(5){
+    position: absolute;
+    bottom: 4%;
+    left: 32%;
+    transform: rotate(20deg);
+ }
+
+ #skill-container h4:nth-child(6){
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+ }
+
+ #skill-container h4:nth-child(7){
+    position: absolute;
+    bottom: 0%;
+    left: 56%;
+ }
+
+ #skill-container h4:nth-child(8){
+    position: absolute;
+    bottom: 7%;
+    right: 28%;
+ }
+
+ #skill-container h4:nth-child(9){
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+ }
+
+ #skill-container h4:nth-child(10){
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+ }
